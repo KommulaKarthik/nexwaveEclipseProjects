@@ -1,0 +1,59 @@
+package com.virtusa.client;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+
+import com.virtusa.newmodel.Employee;
+import com.virtusa.newmodel.EmployeeDetails;
+
+public class ManyToOneEmployeeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+
+		EmployeeDetails employeeDetails = new EmployeeDetails();
+		employeeDetails.setAddress("Malkajgiri");
+		employeeDetails.setAge(21);
+		employeeDetails.setBloodGroup("O+Positive");
+		employeeDetails.setZipCode("500057");
+		
+		Employee employee = new Employee();
+		employee.setEmployeeId(201);
+		employee.setFirstName("Rahul");
+		employee.setLastName("Reddy");
+		employee.setSalary(70000.56f);
+		employee.setContactNumber(9949086858L);
+		employee.setGender('m');
+		employee.setStatus(true);
+		employee.setEmployeeDetails(employeeDetails);
+		
+		
+		
+		
+		
+		
+		Configuration configuration = new Configuration();
+		configuration.configure("hibernate.cfg.xml");
+	
+		
+		StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
+				.applySettings(configuration.getProperties()).build();
+		SessionFactory sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+		Session session = sessionFactory.openSession();
+		session.save(employee);
+		
+		
+		session.close();
+		
+		
+		
+
+	}
+
+}

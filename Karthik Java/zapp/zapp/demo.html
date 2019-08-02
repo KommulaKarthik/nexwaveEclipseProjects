@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+
+var names=["nischey",123456,"address","email",new Date()];
+var names2=new Array("nischey","praveen","teja2","jasper","yeshwant and rishab");
+for (var i = 0; i < names.length; i++) {
+	console.log(names[i]);
+}
+
+var data={name:'nischey',salary:123456,address:"address",email:"email@gmail",dob:new Date()};
+document.write(data["name"]);
+document.write(data["salary"]);
+
+document.write(data["address"]);
+
+document.write(data["email"]);
+document.write(data["dob"]);
+
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b - a});
+
+document.write("how are you<br>");
+console.log("how are you");
+
+var a=new Number(10);
+var bool=new Boolean(false);
+var bool2=false;
+
+var dd=new Date();
+dd.setMonth(11);
+dd.setDate(11);
+dd.setYear(2020);
+
+
+console.log(dd);
+
+
+var b=20;
+
+document.write("<h1>The result is "+(a+b)+"</h1>");
+
+function print(data){
+	
+	
+	var str="md aziz ahmed";
+	document.write(data.toUpperCase()+"<br>");
+var pos=	str.search("aziz");
+var str1=str.slice(1);
+console.log("str1 === "+str1);
+
+var str2=str.slice(1,5);
+console.log("str2 === "+str2);
+
+
+	alert(pos);
+	
+}
+
+print("my name is khan");
+
+function validate(){
+	var text=document.getElementById("dob").value;
+	console.log("validate()");
+	console.log(text);
+	var str=text.split("-");
+	console.log(str[0]);
+	console.log(str[1]);
+	console.log(str[2]);
+	
+	
+	
+	
+}
+
+
+
+
+</script>
+
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<input type="date" name="dob" id="dob" >
+
+<input type="button" name="click" value="click" id="click" onclick="validate();">
+
+
+
+
+
+
+</body>
+</html>

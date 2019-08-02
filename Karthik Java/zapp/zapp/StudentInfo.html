@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<table border="0" align="center">
+<tr>
+<td>Name:*</td>
+<td><input type="text" name="username" id="username" value="" required="required" pattern="[A-Za-z]{15}"></td>
+</tr>
+<tr>
+<td>Password:*</td>
+<td><input type="password" name="password" id="password" value="" required="required" max="15"></td>
+</tr>
+<tr>
+<td>Phone Number:*</td>
+<td><input type="tel" name="phonenumber" id="phonenumber" value="" required="required" max="10"></td>
+</tr>
+<tr>
+<td>Gender:*</td>
+<td><input type="radio" name="gender" id="gender" value="Male" required="required">Male<br/>
+<input type="radio" name="gender" id="gender" value="Female" required="required">Female</td>
+</tr>
+<tr>
+<td>Date of Birth:*</td>
+<td><input type="date" name="dob" max="2019-07-07"></td>
+</tr>
+<tr>
+<td>Email:*</td>
+<td><input type="email" name="email" id="email" value="email" pattern="/^[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"></td>
+</tr>
+<tr>
+<td>Highest Qualification:*</td>
+<td>
+<select>
+<option value="B.tech">B.tech</option>
+<option value="M.tech">M.tech</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="MSC">MSC</option>
+<option value="MA">MA</option>
+<option value="BSC">BSC</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Courses Interested In:</td>
+<td><input type="checkbox" name="courses" value="Java">Java<br/></td>
+<td><input type="checkbox" name="courses" value="HTML5">HTML5<br/></td>
+<td><input type="checkbox" name="courses" value="CSS3">CSS3<br/></td>
+<td><input type="checkbox" name="courses" value="Angular JS">Angular JS<br/></td>
+<td><input type="checkbox" name="courses" value="JQuery">JQuery</td>
+</tr>
+<tr>
+<td>Comments:</td>
+<td><textarea rows="6" cols="20"></textarea></td>
+</tr>
+<tr>
+<td>Upload Degree/External Certificates:</td>
+<td><input type="file" name=""></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="button" name="button" value="Submit Information">
+<input type="button" name="button" value="Clear"></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>

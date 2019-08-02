@@ -1,0 +1,229 @@
+
+Go through the programs in the following order:
+
+1. ToStringMethod.java
+
+Lab: Create a class customer with fields customer id(long), customer name, mobile number, email address. When you print a 
+customer object it should display all the object fields.     	
+
+
+2. EqualsMethod.java
+
+Lab: Write a program to check whether two customer objects are equivalent or not. Two customer objects are considered 
+equivalent if their customer id is same. 
+
+
+3. HashCodeMethod.java
+
+Lab: Override the equals and hash code methods in the customer class.
+
+
+4. HashSetExample.java (596 pgno)
+
+Lab: Create a class product with fields product id, product name and price. Create 5 objects of the class and add them to hashset.   
+Iterate the hashset using a iterator and display all the products name and price only. Create the hashset in such a way that it 
+should not accept any duplicate products when added. 
+
+
+5. LinkedHashSetExample.java
+ 
+Lab: Display all the countries in the same order the user entered by removing duplicates 
+
+Example input: 
+
+Enter a number: 10
+
+Enter 10 country names
+
+japan
+russia
+iran
+russia
+bangladesh
+russia
+iran
+srilanka
+india
+srilanka
+india
+
+output :  
+
+japan
+russia
+iran
+bangladesh
+srilanka
+india
+
+
+6. TreeSetExample.java
+
+Lab: Write a program to sort the student names using TreeSet. Only alphabets and spaces are allowed in name if there is any other 
+character the name should be removed from collection when iterating the collection. Use Iterator remove method to achieve this. 
+
+Example input:
+
+Enter the number of students 
+
+6
+
+Enter the names
+
+kamal
+abdul
+zubair
+mahesh-reddy
+vimal
+karthik2
+
+output: 
+
+abdul
+kamal
+vimal
+zubair
+
+
+7. ArrayListExample.java
+
+Lab: Write a program to remove duplicate elements in the array list.
+
+
+8. LinkedListExample.java
+
+Lab: Write a program to find 2nd biggest element in the linked list. 
+
+  
+9. HashMapExample.java
+
+Lab: Count the number of occurrences of each word in the input string.  
+
+Example input: Enter the string (enter only alphabets and spaces) 
+
+java is platform independent java is object oriented java is machine independent
+
+output: java count is 3
+            is count is 3
+            independent count is 2 
+            platform count is 1 
+            etc.. like this 
+
+
+10. IterateMap.java
+
+    
+11. LinkedHashMapExample.java
+
+Lab: Create a class Course with the field coursename. Create a class Book with fields title, author name and isbn. Create a linked 
+hash map of course mapped to its books like this:
+
+LinkedHashMap<Course,ArrayList<Book>> library = new LinkedHashMap<Course,ArrayList<Book>>( );  add 5 entries to the map.
+The user will enter a course name at program run time in the output it should display all the books of that course.  
+ 
+example input: 
+
+Enter the course name
+
+C
+
+output: (Use hash map get method to search for the entry in the map) 
+
+Title: The C Programming Language  Author: Brian W. Kernighan and Dennis M. Ritchie
+Title: C The Complete Reference       Author: Herbert Schildt
+Title: Programming in ANSI C            Author: E Balagurusamy
+Title: Let Us C                                  Author: Yashavant Kanetkar
+Title: Head First C                            Author: David Griffiths    
+ 
+   
+12. TreeMapExample.java
+
+Lab: Create a hash map of train name (String) mapped to train number (Long). Display all the train names in ascending order along 
+with its number. After displaying the list ask the user to enter a train number.  
+
+output:  
+
+AMI CSMT EXPRESS	12112
+BPL PBH SUP EXP	12183
+DAYODAYA EXP	 12182
+UDYOG NAGRI EXP  12174
+VSG SBC LINK EXP  02779
+
+Enter a train number: 12174 (input) 
+
+Train name is UDYOG NAGRI EXP  (output) 
+
+
+13. ComparableInterface.java
+
+Lab: Create a class Item with the fields id, name and price. Display all the items in the ascending order of their price.
+   
+
+14. ComparatorInterface.java
+
+Lab: Create a class Car with the fields model(String), price(double) and mileage(float)
+ 
+       a) Display all the cars in the ascending order of their model 
+       
+       b) Display all the cars in the descending order of their mileage
+ 
+       c) Sort StringBuffer objects in the ascending order
+
+       d) Sort Integer objects in the descending order   
+                   
+            
+15. CollectionsClass.java  
+
+Lab: Create a class Stock with the fields name (string), code (string) and price. Create 6 objects and add them to array list 
+(Eg: stock name: Tata consultancy services limited , stock code : TCS , stock price: 1854.05). Sort the array list based on 
+the value of the field stock code and also search for a particular stock in the array list.  
+
+
+16. ArraysClass.java
+
+Lab: Create a class Bill with the fields id, and total. Create 6 objects and add them to array. Sort the array based on the value 
+of the field bill id and also search for a particular bill in the array.
+
+
+Generics:
+
+
+1. UseOfGenerics.java, GenericsTypeOld.java, GenericsType<T>.java
+
+Lab: Create and use a generic class.   
+
+
+2. GenericsMethods.java
+
+Lab: Create and use a generic method
+
+
+3. WildCard1.java
+
+Lab: Write a program to show the use of '?' wild card. 
+
+
+4. WildCard2.java
+
+Lab: Write a program to show the use of '? extends' wild card.
+
+
+5. WildCard3.java
+
+Lab: Write a program to show the use of '? super' wild card.
+
+
+6. GenericInterfaceReference.java
+
+Lab: Which class objects can be passed to this method ? void test(Comparable<? extends Car> x) {  }. (Choose all that apply)
+
+class Test1 implements Comparable<Car> {  }
+class Test2 implements Comparable<Vehicle> {  }
+class Test3 implements Comparable<Maruthi> {  }
+class Test4 implements Comparable<Object> {  }
+
+
+7. GenericsInheritance.java
+
+Lab: Write a program to show inheritance in generics
+

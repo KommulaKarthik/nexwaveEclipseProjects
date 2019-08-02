@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BusTicketReservation-20190801T102913Z-001 (1).zip_expanded">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/BusTicketReservation/src"/>
+        <property name="context-root" value="BusTicketReservation-20190801T102913Z-001_(1).zip_expanded"/>
+        <property name="java-output-path" value="/BusTicketReservation-20190801T102913Z-001 (1).zip_expanded/BusTicketReservation/build/classes"/>
+    </wb-module>
+</project-modules>

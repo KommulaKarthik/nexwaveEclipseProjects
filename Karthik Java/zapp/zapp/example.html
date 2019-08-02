@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function generateItem(){
+	
+	
+	var arr1 = ["c biryani","lassi","b ice-cream"];
+	var arr2 = ["m biryani","b lassi","s ice-cream"];
+	var arr3 = ["f biryani","g lassi","p ice-cream"];
+	var arr4 = ["v biryani","c lassi","b ice-cream"];
+	var arr5 = ["p biryani","m lassi","c ice-cream"];
+	
+	
+	
+	var rst = document.getElementById("restId");
+	var text = rst.options[rst.selectedIndex].text;
+	console.log();
+	console.log(rst.options[rst.selectedIndex]);
+	
+	if(text = = "mohan rest"){
+		
+		
+		
+		//var select = document.createElement("select");
+		var item = document.getElementById("itemname");
+		
+		item.options.length=0;
+		for(var i= 0;i<arr1.length;i++){
+			
+			var opt=document.createElement("option");
+			var txt=document.createTextNode(arr1[i]);
+			
+			opt.appendChild(txt);
+			item.appendChild(opt);
+			
+			
+		}
+	}
+	
+
+	if(text = = "pohan rest"){
+		
+		//var select = document.createElement("select");
+		var item = document.getElementById("itemname");
+		item.options.length=0;
+
+		for(var i= 0;i<arr1.length;i++){
+			
+			var opt=document.createElement("option");
+			var txt=document.createTextNode(arr2[i]);
+			
+			opt.appendChild(txt);
+			item.appendChild(opt);
+			
+		}
+	}
+	
+
+	if(text = = "yohan rest"){
+		
+		//var select = document.createElement("select");
+		var item = document.getElementById("itemname");
+		item.options.length=0;
+
+		for(var i= 0;i<arr1.length;i++){
+			
+			var opt=document.createElement("option");
+			var txt=document.createTextNode(arr3[i]);
+			
+			opt.appendChild(txt);
+			item.appendChild(opt);
+			
+		}
+	}
+	
+}
+
+
+
+function removerows(){
+	
+	var tab = document.getElementById("tab");
+	tab.deleteRow(0);
+	
+}
+function addrows(){
+	var tab = document.getElementById("tab");
+	
+	var tr =  document.createElement("tr");
+	var td = document.createElement("td");
+	
+	var ip = document.createElement("input");
+	ip.setAttribute("name","username");
+	ip.setAttribute("id","username");
+	ip.setAttribute("placeholder","Enter the username");
+	
+	
+	
+	var txt= document.createTextNode("Karthik");
+	td.appendChild(txt);
+	tr.appendChild(td);
+	tab.appendChild(tr);
+	
+}
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div onclick="addrows();">
++
+</div>
+
+ 
+
+<table id="tab" border="1">
+
+</table>
+</body>
+</html>

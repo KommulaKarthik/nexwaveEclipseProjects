@@ -1,0 +1,27 @@
+
+1. TryCatchExample.java
+
+2. MultipleCatchWithFinallyBlock.java
+
+3. FewCheckedExceptions.java
+
+4. FewUnCheckedExceptions.java
+
+5. YourOwnExceptionClass.java
+
+6. TryWithArguments.java
+
+7. ThrowsExample.java
+
+8. NestedTryCatch.java
+
+9. AssertDemo.java (optional) 
+
+
+Lab:
+
+1. Create a class in such a way that maximum 3 objects of the class can be created. If you try to create the 
+    4th object it should not allow the creation. Create your own exception class 'ObjectCreationException' 
+    and use it. 
+    
+2. Write code that causes null pointer exception and IOException

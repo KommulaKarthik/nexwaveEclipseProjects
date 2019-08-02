@@ -1,0 +1,37 @@
+package com.virtusa.client;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.virtusa.association.model.Author;
+import com.virtusa.association.model.Book;
+
+public class OneToOneMappingMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Book book = new Book();
+		book.setTitle("Hibernate Made Easy");
+        book.setDescription("Simplified Data Persistence with Hibernate and JPA");
+        book.setPublishedDate(new Date());
+        
+        book.setAuthor(new Author("Cameron Wallace McKenzie", "cameron.bckenzie@gmail.com"));
+        
+
+		Configuration configuration = new Configuration();
+		configuration.configure("hibernate.cfg.xml");
+		SessionFactory sessionFactory = configuration.buildSessionFactory();
+		Session session = sessionFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		session.save(book);
+		transaction.commit();
+		session.close();
+
+	}
+
+}

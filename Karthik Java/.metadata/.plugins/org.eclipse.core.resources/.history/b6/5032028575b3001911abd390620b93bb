@@ -1,0 +1,97 @@
+package com.virtusa.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+
+
+@Entity  
+@Table(name= "employeetab") 
+public class Employee {
+	public Employee(){
+		
+	}
+
+	
+	@Id
+	@Column(name="employee_id",length=10)
+	private int employeeId; 
+	@Column(name="first_name")
+	private String firstName;
+	@Column(name="last_name")
+	private String lastName;
+	@Column(name="emp_salary")
+	private float salary;
+	@Column(name="contact_no")
+	private long contactNumber;
+	@Column(name="emp_gender")
+	private char gender;
+	@Column(name="emp_status")
+	private boolean status;
+	/*@Temporal(TemporalType.DATE)
+	private Date dateOfBirth;*/
+	
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public Employee(int employeeId, String firstName, String lastName, float salary, long contactNumber, char gender,
+			boolean status) {
+		super();
+		this.employeeId = employeeId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.salary = salary;
+		this.contactNumber = contactNumber;
+		this.gender = gender;
+		this.status = status;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public float getSalary() {
+		return salary;
+	}
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+	public long getContactNumber() {
+		return contactNumber;
+	}
+	public void setContactNumber(long contactNumber) {
+		this.contactNumber = contactNumber;
+	}
+	public char getGender() {
+		return gender;
+	}
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
+				+ ", salary=" + salary + ", contactNumber=" + contactNumber + ", gender=" + gender + ", status="
+				+ status + "]";
+	}
+
+
+}

@@ -1,0 +1,44 @@
+
+Loan 
+
+loanAccountNumber
+loanRepayDuration
+loanAmount
+loanInterest
+loanProcessingFee
+
+void closeLoan( ) {  }
+double getPaidAmount( ) { }
+double getPendingAmount( ) { }
+
+HouseLoan
+CarLoan
+EducationLoan
+PersonalLoan
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+FixedDeposit
+
+fdAccountNumber
+amount
+rateOfInterest
+duration
+
+TaxSavingFixedDeposit
+MultiOptionDeposit
+FixedDeposit
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Insurance
+
+policyamount
+policyduration
+
+
+LifeInsurance
+HealthInsurance
+PropertyInsurance
+
+----------------------------------------------------------------------------------------------------------------------------------------

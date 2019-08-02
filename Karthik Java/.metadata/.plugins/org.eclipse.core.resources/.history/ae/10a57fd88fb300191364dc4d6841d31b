@@ -1,0 +1,5 @@
+package com.virtusa.association.model;
+
+public class Cart {
+
+}

@@ -1,0 +1,21 @@
+package com.virtusa.newmodel;
+
+import javax.persistence.Column;
+
+public class EmployeeDetails {
+	
+	public EmployeeDetails(){
+		
+	}
+	
+	
+	@Column(name="emp_address")
+	private String address;
+	@Column(name="emp_zipcode")
+	private String zipCode;
+	@Column(name="emp_bloodgroup")
+	private String bloodGroup;
+	@Column(name="emp_age")
+	private int age;
+
+}

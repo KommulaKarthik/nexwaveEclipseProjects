@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="173" key="DIALOG_X_ORIGIN"/>
+		<item value="31" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="250" key="dialogHeight"/>
+		<item value="350" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="2"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.wst.server.ui.ServersView"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textArray">
+			<item value="servers "/>
+			<item value="servers"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.XMLCategory"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.jst.servlet.ui.internal.wizard.WebComponentImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\HibernateFinalProject.zip"/>
+			<item value="D:\HibernateProject.zip"/>
+			<item value="D:\HibernateFinalNewUpdated.zip"/>
+			<item value="D:\HibernateFinal.zip"/>
+			<item value="D:\HibernateLatest.zip"/>
+			<item value="D:\HibernateNew.zip"/>
+			<item value="D:\HibernateUpdated.zip"/>
+			<item value="D:\Hibernate.zip"/>
+			<item value="D:\AllProjects.zip"/>
+			<item value="D:\dynamic_travelline_new_updated.zip"/>
+			<item value="D:\linkedin_new.zip"/>
+			<item value="D:\ngmail.zip"/>
+			<item value="D:\linkedin.zip"/>
+			<item value="D:\ymail.zip"/>
+			<item value="D:\travel.zip"/>
+			<item value="D:\travelline_updated_new.zip"/>
+			<item value="D:\gmail.zip"/>
+			<item value="C:\Users\admin\Desktop\gmail.zip"/>
+			<item value="C:\Users\admin\Desktop\travel_line2.zip"/>
+			<item value="C:\Users\admin\Desktop\travel_line.zip"/>
+		</list>
+	</section>
+</section>

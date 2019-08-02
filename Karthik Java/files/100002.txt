@@ -1,0 +1,16 @@
+Your account number is 100002Your Trasaction Amount is 1000.0Your Trasaction type is wYour Balance is 48000.0Your account number is 100002
+Your Trasaction Amount is 2000.0
+Your Trasaction type is d
+Your Balance is 60000.0
+Your account number is 100002
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0
+Your account number is 100002
+Your Trasaction Amount is 2000.0
+Your Trasaction type is d
+Your Balance is 60000.0
+Your account number is 100002
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0

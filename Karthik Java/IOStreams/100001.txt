@@ -1,0 +1,40 @@
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 50000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 50000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 50000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 50000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 50000.0
+Your account number is 100001
+Your Trasaction Amount is 1000.0
+Your Trasaction type is w
+Your Balance is 48000.0

@@ -1,0 +1,13 @@
+package com.virtusa.association.model;
+
+public class Items {
+	
+	
+	private String itemId;
+	private double itemTotal;
+	private int quantity;
+	private Cart cart;
+	
+	
+
+}

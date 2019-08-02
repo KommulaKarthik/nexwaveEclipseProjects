@@ -1,0 +1,40 @@
+package com.virtusa.newmodel;
+
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="employee")
+public class Employee {
+	public Employee(){
+		
+	}
+	
+	
+	@Id
+	@Column(name="employee_id",length=10)
+	private int employeeId; 
+	@Column(name="first_name")
+	private String firstName;
+	@Column(name="last_name")
+	private String lastName;
+	@Column(name="emp_salary")
+	private float salary;
+	@Column(name="contact_no")
+	private long contactNumber;
+	@Column(name="emp_gender")
+	private char gender;
+	@Column(name="emp_status")
+	private boolean status;
+	
+	@Embedded
+	private EmployeeDetails employeeDetails;
+	
+	
+	
+
+}

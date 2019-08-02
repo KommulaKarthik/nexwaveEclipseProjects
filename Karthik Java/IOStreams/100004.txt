@@ -1,0 +1,20 @@
+Your account number is 100004
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 650000.0
+Your account number is 100004
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 650000.0
+Your account number is 100004
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 650000.0
+Your account number is 100004
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 650000.0
+Your account number is 100004
+Your Trasaction Amount is 1000.0
+Your Trasaction type is d
+Your Balance is 650000.0

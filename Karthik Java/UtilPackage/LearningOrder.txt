@@ -1,0 +1,37 @@
+
+Go through the programs in the following order:
+
+1. DateClass.java
+
+Lab: For the given time in milliseconds: 1437864834857 find date month and year using date class.   
+
+
+2. CalenderDemo.java
+
+Lab: i) A person date of birth is given as input in the output display his age and also on which day he is born(sun or mon or tue). 
+
+Lab: ii) A month number and year is given as input in the output display the date of second Saturday of that month.   
+
+
+3. SimpleDateFormatDemo.java
+
+Lab: i) Display the current date and time in this format: 27th July, 15 Monday
+       ii) Convert the date in string format "27-07-2015" (dd-mm-yyyy) to the date object.   
+
+
+4. TimeZoneDemo.java
+
+Lab: Write a program that prints current date and time in Australia using calendar class.
+ 
+
+5. ScannerDemo.java
+    ScannerDemo2.java    
+
+Lab: 
+
+
+6. LocalDateDemo.java 
+
+7. PeriodAndDuration.java
+
+9. LocalDateTimeDemo.java

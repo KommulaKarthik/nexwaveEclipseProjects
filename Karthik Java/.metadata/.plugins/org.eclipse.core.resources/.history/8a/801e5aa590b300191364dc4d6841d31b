@@ -1,0 +1,16 @@
+package com.virtusa.association.model;
+
+import java.util.Set;
+
+
+public class Cart {
+	
+	private long cartId;
+	private double total;
+	private String name;
+	private Set<Items> items;
+	
+	
+	
+
+}
